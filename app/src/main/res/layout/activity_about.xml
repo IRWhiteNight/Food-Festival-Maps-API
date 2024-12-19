@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <!-- Title TextView -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Title TextView -->
+        <TextView
+            android:id="@+id/about_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/developers"
+            android:layout_marginTop="20dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Scrollable LinearLayout for Image Grid -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <!-- First Column: Image 1 and Image 3 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingEnd="30dp"
+                    tools:ignore="RtlSymmetry">
+
+                    <ImageView
+                        android:id="@+id/photo_ikhwan"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/circle_shadow"
+                        android:contentDescription="@string/ikhwan"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ikhwan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/ikhwan" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="2022977561" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Lead Developer" />
+
+                    <ImageView
+                        android:id="@+id/photo_harith"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/circle_shadow"
+                        android:contentDescription="@string/harith"
+                        android:scaleType="centerCrop"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/harith" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/harith" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="2022770453" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Frontend Developer" />
+
+                </LinearLayout>
+
+                <!-- Second Column: Image 2 and Image 4 -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingStart="16dp"
+                    tools:ignore="RtlSymmetry">
+
+                    <ImageView
+                        android:id="@+id/photo_iqma"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/circle_shadow"
+                        android:contentDescription="@string/iqma"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/iqma" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/iqma" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="2022739055" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Lead Developer" />
+
+                    <ImageView
+                        android:id="@+id/photo_iskandar"
+                        android:layout_width="150dp"
+                        android:layout_height="200dp"
+                        android:background="@drawable/circle_shadow"
+                        android:contentDescription="@string/iskandar"
+                        android:scaleType="centerCrop"
+                        android:layout_marginTop="50dp"
+                        android:src="@drawable/iskandar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/iskandar" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="2022378075" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Backend Developer" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </FrameLayout>
+
+    <!-- Button to GitHub and Another Button -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_github"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/githhub"
+            android:layout_marginRight="40dp"
+            android:onClick="goToGitHub" />
+
+        <Button
+            android:id="@+id/button_admin"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/admin"
+            android:layout_marginStart="16dp"
+            android:onClick="anotherButtonAction" />
+
+        <Button
+            android:id="@+id/button_youtube"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/youtube_icon"
+            android:layout_marginLeft="40dp"
+            android:onClick="anotherButtonAction" />
+
+    </LinearLayout>
+
+    <!-- Copy Right Text -->
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="© 2024 Food Festival"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="60dp"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        app:itemIconTint="@null"
+        app:menu="@menu/bottom_navigation_menu_map"
+        app:labelVisibilityMode="unlabeled"
+        tools:ignore="VisualLintBottomNav" />
+
+</FrameLayout>

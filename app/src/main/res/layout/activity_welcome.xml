@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcome_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/welcome"
+        android:src="@drawable/food1"
+        android:scaleType="centerCrop"/>
+
+    <!-- Blur Overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blur_overlay"/>
+
+    <!-- Light Effect -->
+    <View
+        android:id="@+id/light_effect"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/light_effect"
+        android:layout_marginTop="150dp"/>
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="190dp"
+        android:layout_height="130dp"
+        android:contentDescription="@string/logowelcome"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"
+        android:elevation="8dp"/>
+
+</RelativeLayout>

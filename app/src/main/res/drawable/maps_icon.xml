@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background shape for semi-transparent effect -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000"/> <!-- Adjust transparency as needed -->
+        </shape>
+    </item>
+
+    <!-- Image layer -->
+    <item android:drawable="@drawable/maps"
+        android:gravity="center"/>
+
+</layer-list>

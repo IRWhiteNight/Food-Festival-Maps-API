@@ -1,0 +1,19 @@
+<!-- res/menu/bottom_navigation_menu_map.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_map"
+        android:title=""
+        android:icon="@drawable/maps_icon" />
+
+    <item
+        android:id="@+id/nav_navigation"
+        android:title=""
+        android:icon="@drawable/foodi" />
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/about"
+        android:title=""
+        app:showAsAction="always" />
+
+</menu>

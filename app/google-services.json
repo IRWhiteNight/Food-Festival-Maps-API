@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "21652125686",
+    "project_id": "aegishub2",
+    "storage_bucket": "aegishub2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21652125686:android:a8779d703a19a2c45db9d7",
+        "android_client_info": {
+          "package_name": "com.example.aegishub2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHzQoUwZ1X__d3NIyKHyE4VX6HKGtCCFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

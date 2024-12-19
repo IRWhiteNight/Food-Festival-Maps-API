@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Food Festival</string>
+    <string name="welcome_to_aegis_hub_na_map_tells_you_where_you_ve_been_where_you_are_and_where_you_re_going_in_a_sense_it_s_three_tenses_in_one">Welcome to Aegis Hub,\nA map tells you where you\'ve been, where you are, and where you\'re going — in a sense it\'s three tenses in one.</string>
+    <string name="welcome">welcome</string>
+    <string name="welcome_to_aegis_hub">Welcome to Food Festival !</string>
+    <string name="welcome_message" />
+    <string name="logowelcome">logowelcome</string>
+    <string name="love_is_the_map_that_leads_us_to_ourselves">Love is the map that leads us to ourselves</string>
+    <string name="search">Search...</string>
+    <string name="enter_origin">Enter origin</string>
+    <string name="enter_destination">Enter destination</string>
+    <string name="navigate">Navigate</string>
+    <string name="truck_data">Truck Data</string>
+    <string name="your_origin">your origin</string>
+    <string name="your_destination">your destination</string>
+    <string name="waze">start waze</string>
+    <string name="truck_name">truck name</string>
+    <string name="description">description</string>
+    <string name="truck_model">truck model</string>
+    <string name="truck_capacity">truck capacity</string>
+    <string name="truck_status">truck status</string>
+    <string name="google_maps_key"> </string>
+    <string name="map">Map</string>
+    <string name="navigation">Navigation</string>
+    <string name="place_image">Place IMG</string>
+    <string name="developers">About Developers</string>
+    <string name="ikhwan">Ikhwan</string>
+    <string name="iqma">Iqma</string>
+    <string name="harith">Harith</string>
+    <string name="todo">TODO</string>
+    <string name="iskandar">Iskandar</string>
+    <string name="default_developer_details">developer details</string>
+    <string name="ikhwan_details">Mohamad Ikhwan bin Mohd Rosdi\n2022977561\nRCS2405A</string>
+    <string name="iqma_details">Nurul Iqmalina binti Jamil\n2022739055\nRCDCS2515B</string>
+    <string name="harith_details">harith</string>
+    <string name="iskandar_details">iskandar</string>
+
+</resources>

@@ -1,0 +1,24 @@
+<!-- youtube_icon.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0"
+    android:tint="?attr/colorControlNormal"
+    android:alpha="0.8">
+
+    <!-- Background Circle with Stroke -->
+    <path
+        android:pathData="M12,2
+            a 10,10 0 1,0 0.1,0
+            z"
+        android:strokeWidth="2"
+        android:strokeColor="@android:color/white"
+        android:fillColor="@android:color/transparent" />
+
+    <!-- Play Triangle -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M9.5,7.5l7,4.5l-7,4.5z" />
+
+</vector>
